@@ -1,0 +1,26 @@
+body
+{
+    background: rgb(193,255,255);
+background: linear-gradient(90deg, rgba(193,255,255,1) 38%, rgba(224,54,126,1) 97%);
+}
+
+.btn-warning:hover{
+    background-color: red;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px purple;}
+    to{box-shadow: 1px 1px 38px pink;}
+}
+
+h3
+{
+    font-size: 25px !important;
+}
