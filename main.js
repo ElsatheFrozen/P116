@@ -2,7 +2,7 @@ noseX = 0;
 noseY = 0;
 
 function preload() {
-    lipstick = loadImage('https://i.postimg.cc/s2NqJWHs/l1.png');
+    lipstick = loadImage('https://i.postimg.cc/1tJJVtb6/l1-1.png');
 }
 
 function setup() {
